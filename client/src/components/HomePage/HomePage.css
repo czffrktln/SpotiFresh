@@ -1,0 +1,32 @@
+#HomePage {
+  max-width: 1160px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+  background-color: white
+}
+img {
+  width: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+  #HomePage {max-width: 310px;}
+}
+
+@media only screen and (min-width: 600px) {
+  #HomePage  { max-width: 590px;}
+}
+
+@media only screen and (min-width: 768px) {
+  #HomePage  {max-width: 590px;}
+} 
+
+@media only screen and (min-width: 992px) {
+  #HomePage  {max-width: 870px;}
+} 
+
+@media only screen and (min-width: 1200px) {
+  #HomePage  { max-width:1160px}
+}
