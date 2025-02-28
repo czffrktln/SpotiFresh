@@ -1,0 +1,41 @@
+#Logo {
+  width: 1160px;
+  text-align: center;
+  position: relative;
+  background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  #Logo {max-width: 310px;}
+}
+
+@media only screen and (min-width: 600px) {
+  #Logo  {max-width: 590px;}
+}
+
+@media only screen and (min-width: 768px) {
+  #Logo  {max-width: 590px;}
+} 
+
+@media only screen and (min-width: 992px) {
+  #Logo  {max-width: 870px;}
+} 
+
+@media only screen and (min-width: 1200px) {
+  #Logo  {max-width:1160px}
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+  padding-top: 30px;
+}
+
+h4 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+
+
+
