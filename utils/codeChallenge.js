@@ -19,5 +19,5 @@ const base64encode = (input) => {
     .replace(/\//g, '_');
 }
 
-const hashed = await sha256(codeVerifier)
+const hashed = sha256(codeVerifier)
 export const codeChallenge = base64encode(hashed);
